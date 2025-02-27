@@ -6,8 +6,10 @@ require (
 	github.com/go-chi/chi/v5 v5.2.1
 	github.com/go-chi/jwtauth v1.2.0
 	github.com/google/uuid v1.4.0
+	github.com/mattn/go-sqlite3 v1.14.24
 	github.com/spf13/viper v1.19.0
 	gorm.io/driver/postgres v1.5.11
+	gorm.io/driver/sqlite v1.5.7
 	gorm.io/gorm v1.25.12
 )
 
