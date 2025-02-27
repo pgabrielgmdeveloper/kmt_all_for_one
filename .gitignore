@@ -1,0 +1,23 @@
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore Go build artifacts
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.db
+# Ignore Go test binaries
+*.test
+
+# Ignore Go dependency directories
+vendor/
+
+# Ignore editor swap files
+*.swp
+*.swo
+
+# Ignore macOS specific files
+.DS_Store
