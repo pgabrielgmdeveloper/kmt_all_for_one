@@ -9,5 +9,8 @@ func NewID() ID {
 }
 
 func ParseID(id string) (ID, error) {
+	if id == "" {
+		return uuid.Nil, nil
+	}
 	return uuid.Parse(id)
 }
