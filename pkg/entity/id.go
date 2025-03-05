@@ -16,5 +16,5 @@ func ParseID(id string) (ID, error) {
 }
 
 func IsValidID(id ID) bool {
-	return id == uuid.Nil
+	return id != uuid.Nil
 }
